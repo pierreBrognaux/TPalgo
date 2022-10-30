@@ -1,0 +1,141 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "tp3",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "tp3_exo1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tp3_exo1-Debug-c386f4ff59a123a781b8.json",
+					"name" : "tp3_exo1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tp3_exo10::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tp3_exo10-Debug-b59854b227c79575f478.json",
+					"name" : "tp3_exo10",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tp3_exo2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tp3_exo2-Debug-3e5643030768c6497154.json",
+					"name" : "tp3_exo2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tp3_exo3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tp3_exo3-Debug-a42e8f339324a69efec1.json",
+					"name" : "tp3_exo3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tp3_exo4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tp3_exo4-Debug-efc69591809e4c3201a0.json",
+					"name" : "tp3_exo4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tp3_exo5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tp3_exo5-Debug-d8970815a12d37f1f9eb.json",
+					"name" : "tp3_exo5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tp3_exo6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tp3_exo6-Debug-1937083133fdd9d82349.json",
+					"name" : "tp3_exo6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tp3_exo7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tp3_exo7-Debug-2a00c80444809035f02c.json",
+					"name" : "tp3_exo7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tp3_exo8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tp3_exo8-Debug-7c0a1044d57728ada516.json",
+					"name" : "tp3_exo8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tp3_exo9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tp3_exo9-Debug-a3c8238b65174045318a.json",
+					"name" : "tp3_exo9",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/ecole/projets Clion/tp3/cmake-build-debug",
+		"source" : "C:/ecole/projets Clion/tp3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
