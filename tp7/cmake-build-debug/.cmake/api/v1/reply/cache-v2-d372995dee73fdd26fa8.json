@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/ecole/projets Clion/tp6/cmake-build-debug"
+			"value" : "c:/ecole/projets_Clion/TPalgo/tp7/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/ecole/projets Clion/tp6"
+			"value" : "C:/ecole/projets_Clion/TPalgo/tp7"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -491,7 +491,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/tp6"
+			"value" : "C:/Program Files (x86)/tp7"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -707,7 +707,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "tp6"
+			"value" : "tp7"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1086,7 +1086,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "tp6_BINARY_DIR",
+			"name" : "tp7_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1095,10 +1095,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/ecole/projets Clion/tp6/cmake-build-debug"
+			"value" : "C:/ecole/projets_Clion/TPalgo/tp7/cmake-build-debug"
 		},
 		{
-			"name" : "tp6_IS_TOP_LEVEL",
+			"name" : "tp7_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1110,7 +1110,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "tp6_SOURCE_DIR",
+			"name" : "tp7_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1119,7 +1119,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/ecole/projets Clion/tp6"
+			"value" : "C:/ecole/projets_Clion/TPalgo/tp7"
 		}
 	],
 	"kind" : "cache",

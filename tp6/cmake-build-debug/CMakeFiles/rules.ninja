@@ -118,7 +118,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\ecole\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\ecole\projets Clion\tp6" -B"C:\ecole\projets Clion\tp6\cmake-build-debug"
+  command = "C:\ecole\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\ecole\projets_Clion\TPalgo\tp6 -BC:\ecole\projets_Clion\TPalgo\tp6\cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

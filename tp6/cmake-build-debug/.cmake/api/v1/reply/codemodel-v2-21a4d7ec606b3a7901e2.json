@@ -85,8 +85,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/ecole/projets Clion/tp6/cmake-build-debug",
-		"source" : "C:/ecole/projets Clion/tp6"
+		"build" : "C:/ecole/projets_Clion/TPalgo/tp6/cmake-build-debug",
+		"source" : "C:/ecole/projets_Clion/TPalgo/tp6"
 	},
 	"version" : 
 	{
