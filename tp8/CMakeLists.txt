@@ -3,4 +3,4 @@ project(tp8 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(tp8 main.c)
+add_executable(tp8_exo1 main_exo1.c)
