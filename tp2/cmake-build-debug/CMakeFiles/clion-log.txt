@@ -1,4 +1,19 @@
-"C:\ecole\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/ecole/CLion 2022.2.3/bin/ninja/win/ninja.exe" -G Ninja -S "C:\ecole\projets Clion\tp2" -B "C:\ecole\projets Clion\tp2\cmake-build-debug"
+"C:\ecole\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/ecole/CLion 2022.2.3/bin/ninja/win/ninja.exe" -G Ninja -S C:\ecole\projets_Clion\TPalgo\tp2 -B C:\ecole\projets_Clion\TPalgo\tp2\cmake-build-debug
+-- The C compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/ecole/CLion 2022.2.3/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
 -- Configuring done
--- Generating done
--- Build files have been written to: C:/ecole/projets Clion/tp2/cmake-build-debug
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Cannot find source file:
+
+    main_exo14.c
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  No SOURCES given to target: tp2_exo14
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

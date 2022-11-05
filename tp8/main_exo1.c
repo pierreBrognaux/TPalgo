@@ -1,10 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
-int* notes = malloc(5*sizeof(int));
-for(int i = 0; i <= 20;i++){
-    printf("%d\n",notes[i]);
+int* allouerTableau(int *n){
+    printf("rentrez la taille du tableau ?\n");
+    scanf("%d",&*n);
+    int* tableau = (int*) calloc(n,sizeof(int));
+    return tableau;
 }
-free(notes);
+
+int main(){
+    int n =0;
+    int *tableau = allouerTableau(&n);
+    printf("vous avez allouer un tableau a %d entre",n);
+    free(tableau);
 }
