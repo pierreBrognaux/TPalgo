@@ -73,6 +73,39 @@ build tp8_exo1.exe: C_EXECUTABLE_LINKER__tp8_exo1_Debug CMakeFiles/tp8_exo1.dir/
   TARGET_IMPLIB = libtp8_exo1.dll.a
   TARGET_PDB = tp8_exo1.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target tp8_exo2
+
+
+#############################################
+# Order-only phony target for tp8_exo2
+
+build cmake_object_order_depends_target_tp8_exo2: phony || CMakeFiles/tp8_exo2.dir
+
+build CMakeFiles/tp8_exo2.dir/main_exo2.c.obj: C_COMPILER__tp8_exo2_Debug C$:/ecole/projets_Clion/TPalgo/tp8/main_exo2.c || cmake_object_order_depends_target_tp8_exo2
+  DEP_FILE = CMakeFiles\tp8_exo2.dir\main_exo2.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\tp8_exo2.dir
+  OBJECT_FILE_DIR = CMakeFiles\tp8_exo2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target tp8_exo2
+
+
+#############################################
+# Link the executable tp8_exo2.exe
+
+build tp8_exo2.exe: C_EXECUTABLE_LINKER__tp8_exo2_Debug CMakeFiles/tp8_exo2.dir/main_exo2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\tp8_exo2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = tp8_exo2.exe
+  TARGET_IMPLIB = libtp8_exo2.dll.a
+  TARGET_PDB = tp8_exo2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -101,6 +134,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build tp8_exo1: phony tp8_exo1.exe
 
+build tp8_exo2: phony tp8_exo2.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -109,7 +144,7 @@ build tp8_exo1: phony tp8_exo1.exe
 #############################################
 # Folder: C:/ecole/projets_Clion/TPalgo/tp8/cmake-build-debug
 
-build all: phony tp8_exo1.exe
+build all: phony tp8_exo1.exe tp8_exo2.exe
 
 # =============================================================================
 # Built-in targets
