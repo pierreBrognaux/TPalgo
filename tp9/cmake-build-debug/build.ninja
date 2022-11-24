@@ -73,6 +73,72 @@ build tp9exo1.exe: C_EXECUTABLE_LINKER__tp9exo1_Debug CMakeFiles/tp9exo1.dir/exo
   TARGET_IMPLIB = libtp9exo1.dll.a
   TARGET_PDB = tp9exo1.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target tp9exo2
+
+
+#############################################
+# Order-only phony target for tp9exo2
+
+build cmake_object_order_depends_target_tp9exo2: phony || CMakeFiles/tp9exo2.dir
+
+build CMakeFiles/tp9exo2.dir/exo2.c.obj: C_COMPILER__tp9exo2_Debug C$:/ecole/projets_Clion/TPalgo/tp9/exo2.c || cmake_object_order_depends_target_tp9exo2
+  DEP_FILE = CMakeFiles\tp9exo2.dir\exo2.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\tp9exo2.dir
+  OBJECT_FILE_DIR = CMakeFiles\tp9exo2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target tp9exo2
+
+
+#############################################
+# Link the executable tp9exo2.exe
+
+build tp9exo2.exe: C_EXECUTABLE_LINKER__tp9exo2_Debug CMakeFiles/tp9exo2.dir/exo2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\tp9exo2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = tp9exo2.exe
+  TARGET_IMPLIB = libtp9exo2.dll.a
+  TARGET_PDB = tp9exo2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target tp9exo3
+
+
+#############################################
+# Order-only phony target for tp9exo3
+
+build cmake_object_order_depends_target_tp9exo3: phony || CMakeFiles/tp9exo3.dir
+
+build CMakeFiles/tp9exo3.dir/exo3.c.obj: C_COMPILER__tp9exo3_Debug C$:/ecole/projets_Clion/TPalgo/tp9/exo3.c || cmake_object_order_depends_target_tp9exo3
+  DEP_FILE = CMakeFiles\tp9exo3.dir\exo3.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\tp9exo3.dir
+  OBJECT_FILE_DIR = CMakeFiles\tp9exo3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target tp9exo3
+
+
+#############################################
+# Link the executable tp9exo3.exe
+
+build tp9exo3.exe: C_EXECUTABLE_LINKER__tp9exo3_Debug CMakeFiles/tp9exo3.dir/exo3.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\tp9exo3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = tp9exo3.exe
+  TARGET_IMPLIB = libtp9exo3.dll.a
+  TARGET_PDB = tp9exo3.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -101,6 +167,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build tp9exo1: phony tp9exo1.exe
 
+build tp9exo2: phony tp9exo2.exe
+
+build tp9exo3: phony tp9exo3.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -109,7 +179,7 @@ build tp9exo1: phony tp9exo1.exe
 #############################################
 # Folder: C:/ecole/projets_Clion/TPalgo/tp9/cmake-build-debug
 
-build all: phony tp9exo1.exe
+build all: phony tp9exo1.exe tp9exo2.exe tp9exo3.exe
 
 # =============================================================================
 # Built-in targets

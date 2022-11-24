@@ -15,7 +15,9 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -30,7 +32,9 @@
 					"name" : "tp9",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -41,6 +45,20 @@
 					"id" : "tp9exo1::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-tp9exo1-Debug-0da8c6fd874007466269.json",
 					"name" : "tp9exo1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tp9exo2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tp9exo2-Debug-bdac667217b8b8fa50e5.json",
+					"name" : "tp9exo2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tp9exo3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tp9exo3-Debug-dab644a0bb2b1794e23d.json",
+					"name" : "tp9exo3",
 					"projectIndex" : 0
 				}
 			]

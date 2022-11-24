@@ -1,3 +1,5 @@
 C:/ecole/projets_Clion/TPalgo/tp9/cmake-build-debug/CMakeFiles/tp9exo1.dir
+C:/ecole/projets_Clion/TPalgo/tp9/cmake-build-debug/CMakeFiles/tp9exo2.dir
+C:/ecole/projets_Clion/TPalgo/tp9/cmake-build-debug/CMakeFiles/tp9exo3.dir
 C:/ecole/projets_Clion/TPalgo/tp9/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/ecole/projets_Clion/TPalgo/tp9/cmake-build-debug/CMakeFiles/rebuild_cache.dir
